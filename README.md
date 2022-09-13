@@ -113,9 +113,9 @@ By the end of project,we concluded
 
     * 5.73% of total Diana DeGette PyPoll votes were polled in Arapahoe county.
 
-The winning candidate is Diane DeGette with 272,892 votes which is 73.8% of total votes.
+6. The winning candidate is Diane DeGette with 272,892 votes which is 73.8% of total votes.
 
-Denver county witnessed most number of votes polled in precinct.
+7. Denver county witnessed most number of votes polled in precinct.
 
 ## Project Code Analysis
 

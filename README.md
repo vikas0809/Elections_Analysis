@@ -18,9 +18,10 @@ And the result on terminal looks like
 
 ![results](Resources/results.png)
 
+
 Results on textfile can be accessed : 
 
-[ElectionAnalysis](Resources/Elections_Analysis.txt)
+[ElectionAnalysis Textfile](Resources/Elections_Analysis.txt)
 
 ### Data Source
 
@@ -220,7 +221,7 @@ Python automates the complex and tidious calucaltion to way simpler and fast pro
 
 We have changed the data structure of dictionaries to be more versatile which allows us to perform many more data analysis operations.
 
-We created a nested dictionary to organize and store data .Please look at the picture of parent dictionary which help us understand the dictionary better.
+We created a nested dictionary to organize and store data .Please look at the picture of parent dictionary which help us understand the dictionary better.Following is the snippet of terminal output.This code does not write this analysis on textfile for assignment porpose.
 
 ![countymapping](Resources/countymapping.png)
 

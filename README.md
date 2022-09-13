@@ -1,6 +1,7 @@
 # Elections_Analysis
 
 ## Project Overview
+
 This project is to automate the rreporting of total number of votes cast, the total number of votes for each candidate, the percentage of votes for each candidate, and the winner of the election based on the popular vote.
 
 We will be assisting Tom ,employee of Colorado board of elections.
@@ -19,7 +20,7 @@ And the result on terminal looks like
 
 Results on textfile can be accessed : 
 
-[ElectionAnalysis](Resources/Elections Analysis.txt)
+[ElectionAnalysis](Resources/Elections_Analysis.txt)
 
 ### Data Source
 
@@ -225,6 +226,6 @@ We created a nested dictionary to organize and store data .Please look at the pi
 
 This is one dict which is enough to perform all possible data analysis operations.Further,we were able to caluculate candidate votes in each county and percentage.
 
-![moreAnalysis](Resources/more analysis.png)
+![moreAnalysis](Resources/more_analysis.png)
 
 

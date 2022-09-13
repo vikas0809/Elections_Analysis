@@ -6,7 +6,7 @@ import csv
 # Set path for file to read
 readfilepath=os.path.join('Resources','election_results.csv')
 # Set path for file to write
-writefilepath=os.path.join('Resources','Elections Analysis.txt')
+writefilepath=os.path.join('Resources','Elections_Analysis.txt')
 
 total_votes=0 #Counter to counnt total number of votes polled
 candidate_list=[] # initialized a list to store names of Candidates
@@ -78,7 +78,6 @@ with open(writefilepath,"w") as analysis_results_textfile:
     #Write code to write sring to the file
     analysis_results_textfile.write(election_results_summary)
     print(election_results_summary)
-
     # Initializing variables to perform conditional analysis tp find winning candidate,votes and percentage
     winning_votes = 0
     winning_percentage = 0
@@ -120,7 +119,6 @@ with open(writefilepath,"w") as analysis_results_textfile:
                 
                 print(f'\t\t--> {candidate_name}: {county_analysis[county_name][candidate_name]["Candidate Votes"]:,} votes\n')
                
-
             #Conditional statement to find largest county turnover
             if county_analysis[county_name]["County Votes"] > winning_county_votes and county_analysis[county_name]["County Percentage"] > winning_county_percentage:
                 winning_county_votes=county_analysis[county_name]["County Votes"]
@@ -132,7 +130,6 @@ with open(writefilepath,"w") as analysis_results_textfile:
             print(f'\t* This is {temp_votes/county_analysis[county_name]["County Votes"]*100:.2f}% of total {county_name} county votes.\n')
             temp_percent=temp_votes/candidate_analysis[county_winner_candidate]["Total Candidate Votes"]*100
             print(f'\t* {temp_percent:.2f}% of total {county_winner_candidate} PyPoll votes were polled in {county_name} county. \n')
-            
             
     # Addind larget turnover county name to string with formatting and text
     winning_county_summary=(

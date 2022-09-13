@@ -5,12 +5,14 @@ This project is to automate the rreporting of total number of votes cast, the to
 
 We will be assisting Tom ,employee of Colorado board of elections.
 
-By the end of this project,we will be able to calculate
-The total number of votes cast in the county election
-Breakdown of the number of votes and the percentage of total votes for each county.
-Breakdown of the number of votes and the percentage of the total votes each candidate received
-The county that received the largest number of votes
-Candidate who won the election, their vote count and the percentage of the total votes
+By the end of this project,we will be able to calculate:
+
+- The total number of votes cast in the county election.
+- Breakdown of the number of votes and the percentage of total votes for each county.
+- Breakdown of the number of votes and the percentage of the total votes each candidate received.
+- The county that received the largest number of votes.
+- Candidate who won the election, their vote count and the percentage of the total votes.
+
 And the result on terminal looks like
 
 ![results](Resources/results.png)
@@ -25,43 +27,44 @@ Results on textfile can be accessed :
 
 ### Softwares Used
 
-    Python 3.7.1 or above
-    Visual Studio 1.7.0 or above
+Python 3.7.1 or above
+
+Visual Studio 1.7.0 or above
 
 ## Summary
 
 By the end of project,we concluded
 
-* Total Votes polled : 369,711
+1. Total Votes polled : 369,711
 
-* Total number of counties: 3
+2. Total number of counties: 3
 
-    ** Arapohoe
+    - Arapohoe
 
-    ** Denver
+    - Denver
 
-    ** Jeffereson
+    - Jeffereson
 
-* Total Candidates: 3
+3. Total Candidates: 3
 
-    ** Charles Casper Stockham
+    - Charles Casper Stockham
 
-    ** Diana DeGette
+    - Diana DeGette
 
-    ** Raymon Anthony Doane
+    - Raymon Anthony Doane
 
-* Candidate Voting Summary:
+4. Candidate Voting Summary:
     Charles Casper Stockham received 23% votes with 85,213 number of votes.
 
     Diana DeGette received 73.8% votes with 272,892 number of votes.
 
     Raymon Anthony Doane received 3.1% votes with 11,606 number of votes.
 
-* County Voting Summary:
+5. County Voting Summary:
 
     Jefferson county: 10.5% of toal votes polled i.e 38,855 votes.
 
-        * Vote Share Breakdown
+        - Vote Share Breakdown
 
             --> Charles Casper Stockham: 19,723 votes
 
@@ -69,11 +72,11 @@ By the end of project,we concluded
 
             --> Raymon Anthony Doane: 1,169 votes
 
-        * Leading Candidate: Charles Casper Stockham with 19,723 votes. 
+        - Leading Candidate: Charles Casper Stockham with 19,723 votes. 
 
-        * This is 50.76% of total Jefferson county votes.
+        - This is 50.76% of total Jefferson county votes.
 
-        * 23.15% of total Charles Casper Stockham PyPoll votes were polled in Jefferson county. 
+        - 23.15% of total Charles Casper Stockham PyPoll votes were polled in Jefferson county. 
     
     Denver county: 82.8% of total votes i.e. 306,055 votes
 
